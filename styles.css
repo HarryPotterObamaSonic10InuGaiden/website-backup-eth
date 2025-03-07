@@ -3,9 +3,16 @@
 }
 
 @font-face { 
-  font-family: "Nise-Sega"; src: url(NiseSega.TTF); 
+  font-family: "Nise-Sega"; src: url(fonts/NiseSega.TTF); 
 }
 
+@font-face { 
+  font-family: "Copperplate Gothic"; src: url("fonts/Copperplate\ Gothic.ttf"); 
+}
+
+@font-face {
+  font-family: "Basilea"; src: url("fonts/Basilea\ Regular.ttf")
+}
 body {
   margin: 0;
   padding: 0;
@@ -32,7 +39,11 @@ body {
   background-color: rgba(70, 30, 30, 0.829);
 }
 a {
-  background-color:rgba(255, 255, 255, 1);;
+  color: #007ffd
+  /* background-color:rgba(255, 255, 255, 1);; */
+}
+#dank-memes {
+  text-align: center;
 }
 #dank-memes > a {
   background-color:transparent;
@@ -72,6 +83,8 @@ div.content-area {
 }
 .top-nav {
   font-weight: bold;
+  font-family: 'Copperplate Gothic';
+  font-size: 22px;
 }
 .harrypotterobamasonic10inu {
   font-family: "Nise-Sega";
@@ -81,6 +94,7 @@ div.content-area {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top:-1em;
+  text-align: center;
 } 
 
 h2 {
@@ -186,11 +200,20 @@ padding: 15px 0;
 font-family: "Nise-Sega"; src: url(NiseSega.TTF); 
 }
 
-.HowToBuy, .ca {
+.larger-tx, .ca {
   font-size:1.3rem;
 }
 .highlight {
   font-size:1rem;
+  font-family: 'Courier';
+}
+.bridge {
+  list-style-type: none;
+}
+
+.mayan {
+  font-size:1.3rem;
+  font-family: 'Courier';
 }
 .addy{
   color:turquoise;
@@ -230,4 +253,8 @@ font-family: "Nise-Sega"; src: url(NiseSega.TTF);
 
 .none {
   display:none;
+}
+
+.parody {
+  font-family: "Basilea";
 }
